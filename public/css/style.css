@@ -1,0 +1,195 @@
+
+body {
+	font-size: 140%;
+}
+
+.menu-header {
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	color: #fff;
+	background: #404040;
+}
+.menu-header .menu-header-logo {
+	float: left;
+	padding: 8px;
+}
+.menu-header .menu-header-logo img {
+	height: 20px;
+}
+.menu-header .menu-header-name {
+	float: right;
+	padding: 8px;
+}
+
+.byline {
+	margin: 10px 0;
+}
+
+.article-comments {
+	margin: 10px 0;
+}
+
+.comment-container {
+	margin: 10px 0;
+	padding: 10px 10px 5px 10px;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.comment-header-row {
+
+}
+.comment-name {
+	float: left;
+	font-weight: bold;
+}
+.comment-support-row {
+	float: right;
+}
+.comment-support-icon {
+	float: left;
+}
+.comment-support {
+	float: left;
+}
+.comment-body-row {
+	
+}
+.comment-date {
+	display: none;
+	color: #808080;
+	font-size: 0.8em;
+}
+.comment-text {
+	
+}
+.comment-footer-row {
+	padding: 5px 0;
+}
+.comment-challenge {
+	float: right;
+}
+.comment-challenge {
+	margin-right: 5px;
+}
+.comment-challenge .btn {
+	padding: 5px;
+	font-size: 0.7em;
+	line-height: 1.0em;
+}
+.comment-support {
+	margin-left: 2px;
+}
+.comment-support .btn {
+	padding: 2px;
+	font-size: 0.7em;
+	line-height: 1.0em;
+}
+.comment-note {
+	margin: 5px 0;
+}
+.comment-note .btn {
+	padding: 5px;
+	font-size: 0.7em;
+	line-height: 1.0em;
+}
+
+.duel-container {
+
+}
+.duel-container .comment-container {
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+.duel-container .comment-container:first-child {
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+.duel-container .comment-container:last-child {
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+	border-left: 0;
+}
+.comment-container.myComment {
+	color: #fff;
+	background: #404040;
+}
+.comment-container.winning {
+	color: #000;
+	background: rgba(57, 181, 74, 0.2);
+}
+.comment-container.losing {
+	color: #000;
+	background: rgba(191, 73, 57, 0.2);
+}
+.comment-container.myComment .comment-challenge .btn {
+	display: none;
+}
+
+.notes-container {
+	width: 100%;
+}
+.note-container {
+	width: 90%;
+	margin: 2px 0;
+	padding: 10px 10px 5px 10px;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.note-container.note-left {
+	float: left;
+}
+.note-container.note-right {
+	float: right;
+}
+.note-container.myComment {
+	color: #fff;
+	background: #404040;
+}
+.note-container.winning {
+	color: #000;
+	background: rgba(57, 181, 74, 0.2);
+}
+.note-container.losing {
+	color: #000;
+	background: rgba(191, 73, 57, 0.2);
+}
+.note-text {
+
+}
+
+.input-comment-container textarea {
+	width: 100%;
+}
+.input-challenge-container {
+	display: none;
+	/*margin: 5px 0;*/
+}
+.input-challenge-container textarea {
+	width: 100%;
+}
+.input-note-container {
+	display: none;
+	margin: 5px 0;
+}
+.input-note-container textarea {
+	width: 100%;
+}
+
+hr {
+	border-top: 1px solid #000;
+}
+
+.clear-fix:after {
+  width: 100%;
+  content: "";
+  display: block;
+  clear: both;
+}
